@@ -5,12 +5,8 @@ Content-Type: application/json
 
 {
   "name":"walk dog",
-  "isComplete":true
+  "isComplete":false
 }
-
-###
-
-GET {{Minimal.Api_HostAddress}}/todoitems
 
 ###
 
@@ -24,9 +20,7 @@ Content-Type: application/json
   "isComplete": false
 }
 
-
 ###
 
-DELETE {{Minimal.Api_HostAddress}}/todoitems/{{id}}
 
-###
+
