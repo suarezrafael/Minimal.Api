@@ -1,0 +1,32 @@
+@Minimal.Api_HostAddress = https://localhost:7046
+
+POST {{Minimal.Api_HostAddress}}/todoitems
+Content-Type: application/json
+
+{
+  "name":"walk dog",
+  "isComplete":true
+}
+
+###
+
+GET {{Minimal.Api_HostAddress}}/todoitems
+
+###
+
+@id=1
+PUT {{Minimal.Api_HostAddress}}/todoitems/{{id}}
+Content-Type: application/json
+
+{
+  "id": 1,
+  "name": "feed fish",
+  "isComplete": false
+}
+
+
+###
+
+DELETE {{Minimal.Api_HostAddress}}/todoitems/{{id}}
+
+###
