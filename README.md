@@ -53,3 +53,25 @@ APIs Mínimas com ASP.NET Core​  por Rafael V. Suarez​
 - Oculta campos sensíveis (ex: Secret)​
 - Melhora segurança e performance​
 - Classe TodoItemDTO com projeção parcial do modelo
+
+### Execução e Testes​
+
+- Uso do Endpoint Manager e arquivos .http​
+- Testes com POST, GET, PUT e DELETE​
+- Respostas em JSON com status HTTP apropriados​
+- Banco de dados é resetado a cada execução​
+
+### Resumo
+
+- APIs mínimas são leves e diretas​
+- Ideal para microserviços e aplicações simples​
+- Fácil de organizar com MapGroup e TypedResults​
+- Uso recomendado de DTOs por segurança e boas práticas
+
+## Referências
+
+- [Documentação Oficial ASP.NET Core](https://docs.microsoft.com/aspnet/core/)
+- [Tutorial](https://learn.microsoft.com/en-us/aspnet/core/tutorials/min-web-api?view=aspnetcore-9.0&tabs=visual-studio)
+- [Visao Geral de apis minimas](https://learn.microsoft.com/pt-br/aspnet/core/fundamentals/minimal-apis/overview?view=aspnetcore-9.0)
+- [Alternativa FastEndpoint](https://fast-endpoints.com/)
+- [Alternativa API Docs Scalar ](https://scalar.com/)
